@@ -352,6 +352,25 @@ body{
     padding: 20px;
 }
 
+.benefit{
+    padding-top: 50px;
+}
+
+.benefit h4{
+    font-family: akira;
+}
+
+.benefit h1{
+    letter-spacing: 35px;
+}
+
+.benefit img{
+    width: 150%;
+    margin-left: -200px;
+    margin-top: -150px;
+
+}
+
 @media screen and (max-width: 768px){
     .logos{
         display: none;
