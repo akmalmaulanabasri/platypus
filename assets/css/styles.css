@@ -8,6 +8,11 @@
     src: url("../fonts/akira.otf") format("opentype");
 }
 
+@font-face {
+    font-family: 'Artifakt Element';
+    src: url("../fonts/ArtifaktElement-Regular.woff.ttf") format("truetype");
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 .font1{
@@ -301,8 +306,8 @@ body{
 
 .roadmap p{
     font-size: 15px;
-    font-weight: normal;
-    font-family: poppins;
+    /* font-weight: bold; */
+    font-family: sans-serif;
 }
 
 .circle-roadmap{
@@ -364,7 +369,7 @@ body{
 }
 
 .benefit h4{
-    font-family: poppins;
+    font-family: Artifakt Element;
 }
 
 .benefit h1{
