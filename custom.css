@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Akira Expanded';
+    src: url("assets/fonts/akira.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Artifakt Element';
+    src: url("assets/fonts/ArtifaktElement-Regular.woff.ttf") format("truetype");
+}
+
+h1,h2{
+    font-family: 'Akira Expanded';
+}
+
+.logo{
+    font-family: 'Akira Expanded';
+    font-size: 45px;
+}
+
+.fa{
+    font-size: 30px;
+    color: #fff;
+}
+
+.letter-spacing{
+    /* letter-spacing: 35px; */
+}
+
+.letter-spacing1{
+    letter-spacing: 5px;
+}
+
+.roadmap-point{
+    width: 50px;
+    height: 50px;
+    border: 2px solid #fff;
+    color: #fff;
+    background-color: #fff;
+    border-radius : 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.roadmap-point img{
+    width: 25px;
+}
+
+.garis{
+    border-left: 2px solid #fff;
+    border-left: 2px solid #fff;
+    background-color: #fff;
+    height: 550px;
+    width: 0;
+    z-index: -100;
+    transform: translateX(82px);
+    position: absolute;
+}

@@ -388,8 +388,20 @@ body{
         display: none;
     }
 
+    .font1{
+        font-size: 35px;
+    }
+
     .txt{
         width: 85%;
+    }
+
+    .txt h1{
+        font-size: 35px;
+    }
+
+    .txt h2{
+        font-size: 25px;
     }
 
     .main-group{
