@@ -83,6 +83,9 @@ h1,h2{
     #footer i{
         font-size: 50px;
     }
+    .card img{
+        width: 50px;
+    }
 }
 
 a{
