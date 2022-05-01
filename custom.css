@@ -27,7 +27,9 @@ h1,h2{
 }
 
 .letter-spacing1{
-    letter-spacing: 5px;
+    letter-spacing: 2px;
+    font-family: 'Akira Expanded';
+    font-weight: normal;
 }
 
 .roadmap-point{
@@ -49,11 +51,22 @@ h1,h2{
 
 .garis{
     border-left: 2px solid #fff;
-    border-left: 2px solid #fff;
-    background-color: #fff;
-    height: 550px;
+    height: 220px;
     width: 0;
     z-index: -100;
-    transform: translateX(82px);
     position: absolute;
+    left: 50%;
+    transform: translateX(-3px);
+}
+
+.roadmap .col-5{
+    height: 220px;
+}
+
+.roadmap .col-2{
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
 }
