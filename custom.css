@@ -79,12 +79,19 @@ h1,h2{
     font-size: 150px;
 }
 
+iframe{
+    height: 700px;
+}
+
 @media (max-width: 750px) {
     #footer i{
         font-size: 50px;
     }
     .card img{
         width: 50px;
+    }
+    iframe{
+        height: 1200px;
     }
 }
 
