@@ -81,6 +81,7 @@ h1,h2{
 
 iframe{
     height: 700px;
+    overflow: hidden;
 }
 
 @media (max-width: 750px) {
