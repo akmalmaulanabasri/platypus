@@ -482,3 +482,12 @@ body{
         margin-top: 20px;
     }
 }
+
+element.style{
+    flex-direction: column;
+    box-sizing: border-box;
+    /* display: flex; */
+    place-content: flex-end center;
+    align-items: flex-end;
+    background-color: white;
+}
